@@ -1,0 +1,138 @@
+body{
+    background-color: #4abd96;
+    font-family: Courier New, Helvetica, Arial, sans-serif, Consolas, Cordana;
+    color: black;
+}
+body h2{
+	color: #d6d6cb;
+	font-family:  Courier New, Helvetica, Arial, sans-serif, Consolas, Cordana;
+	font-size: 30px
+}
+
+header{
+	background-color: #346f84;
+	border-color: #9a7c45;
+	border-width: 5px;
+	text-align : center;
+}
+header p{
+	color: #d6d6cb;
+	font-family:  Courier New, Helvetica, Arial, sans-serif, Consolas, Cordana;
+	font-size:30px;
+}
+header h1{
+	font-size: 60px;
+	color: #d6d6cb;
+	text-align:center;
+
+}
+body a.button{
+	background-color: #346f84;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Courier New;
+}
+body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #346f84;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 17.3px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #346f84;
+}
+
+body { margin:0; }
+
+header{
+	border-bottom: double;
+	border-color: white;
+
+}
+
+header h1.shadow { 
+   color: white; 
+   font: bold 52px Helvetica, Arial, Sans-Serif;
+   text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902;
+}
+.shadow:hover {
+   position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902, 
+                4px 4px #fe4902, 
+                5px 5px #fe4902, 
+                6px 6px #fe4902;
+}
+
+.poli-what{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	padding-left: 55px; 
+	padding-right: 800px; 
+	text-align: left; 
+	font-size: 19px;
+	text-align: justify;
+  	text-justify: inter-word;
+  	background-color: #346f84;
+  	border-style: double;
+  	border-color: white;
+ }
+.politics{
+	display: block;
+	position: absolute; 
+	visibility: visible; 
+	right: 300px; 
+	top: 490px;
+	height: 200px;
+	width: 200px;	
+}
+
+.extra{
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: right;
+	padding-left: 800px;
+	text-align: justify;
+  	text-justify: inter-word;
+  	font-size: 19px;
+  	background-color: #346f84;
+  	border-style: double;
+  	border-color: white;
+}
+
+.libcon{
+	padding-top: 100px;
+	display: block;
+	position: absolute; 
+	visibility: visible; 
+	left: 200px; 
+	top: 800px;
+}

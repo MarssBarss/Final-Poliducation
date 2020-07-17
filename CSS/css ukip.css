@@ -1,0 +1,135 @@
+body{
+    background-color: #4abd96;
+    font-family: Courier New, Helvetica, Arial, sans-serif, Consolas, Cordana;
+}
+body a.button{
+	background-color: #346f84;
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Courier New;
+}
+body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #346f84;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 17.3px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #346f84;
+}
+
+body { margin:0; }
+
+
+
+header h1.shadow { 
+   color: white; 
+   font: bold 52px Helvetica, Arial, Sans-Serif;
+   text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902;
+}
+.shadow:hover {
+   position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902, 
+                4px 4px #fe4902, 
+                5px 5px #fe4902, 
+                6px 6px #fe4902;
+}
+
+.header{
+	color: white;
+	background-color: #346f84;
+	border-bottom: double;
+
+}
+.toplog{
+	position: absolute;
+	padding-left: 650px;
+	padding-bottom: 90px;
+}
+
+.text1{
+  background-color: #346f84;
+  width: 400px;
+  border-color: white;
+  border-style: double;
+  padding: 50px;
+  margin: 20px;
+  text-align: justify;
+  align-items: left;
+  position: absolute;
+  left: 50px;
+}
+
+.text2{
+  background-color: #346f84;
+  width: 400px;
+  border-color: white;
+  border-style: double;
+  padding: 50px;
+  margin: 20px;
+  text-align: justify;
+  position: absolute;
+  right: 50px;
+  
+}
+
+.text3{
+  background-color: #346f84;
+  width: 1280px;
+  border-color: white;
+  border-style: double;
+  padding: 50px;
+  margin: 20px;
+  text-align: justify;
+  align-items: left;
+  position: absolute;
+  left: 50px;
+  top: 1170px;
+}
+
+
+.btt{
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  background-color: #4abd96;
+  border-color: #346f84;
+  border-style: double;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.conserv{
+	width: 20px;
+	height: 20px;
+}
+
